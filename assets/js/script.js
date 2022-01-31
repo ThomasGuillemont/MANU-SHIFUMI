@@ -2,11 +2,11 @@
 let player = () => {
     let input = document.querySelectorAll("input");
     for (let i = 0; i < input.length; i++) {
-        if (document.getElementById('rock').checked) {
+        if (document.getElementById('Maurice').checked) {
             return `Maurice`;
-        } else if (document.getElementById('leaf').checked) {
+        } else if (document.getElementById('Nadine').checked) {
             return `Nadine`;
-        } else if (document.getElementById('scissors').checked) {
+        } else if (document.getElementById('Monstre').checked) {
             return `Monstre`;
         }
     }
