@@ -1,4 +1,2 @@
-# javascript-shifumi
-
-Hello,
+# Hello,
 Copyright © Thomas Guillemont (PtiCafé)
