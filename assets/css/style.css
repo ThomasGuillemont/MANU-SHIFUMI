@@ -1,0 +1,72 @@
+.mauriceStyle {
+    color: #4b8b18;
+}
+.nadineStyle {
+    color: #2380db;
+}
+.monstreStyle {
+    color: #a71515;
+}
+.textStyle{
+    color: #222222;
+}
+.bg-main{
+    background-image: url("../img/background.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.glassmorphism {
+    background: rgb(68 68 68 / 35%);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+.btn-my-color {
+    color: #222222;
+    background-color: #9badb7;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+.btn:hover {
+    color: #222222;
+}
+.img-fluid-choice{
+    max-width: 100%;
+    height: 3rem;
+}
+.img-fluid-life{
+    max-width: 100%;
+    height: 1.3rem;
+}
+.modal-content {
+    margin-top: 5vh;
+}
+.form-control {
+    color: #222222;
+    background-color: #abb0b4;
+}
+.form-control:focus {
+    color: #222222;
+    background-color: #abb0b4;
+    box-shadow: none;
+}
+.form-check-input {
+    background-color: #abb0b4;
+}
+.form-check-input:checked {
+    background-color: #ffffff00;
+}
+
+@media screen and (min-width: 576px) {
+    .img-fluid-choice {
+        height: 4rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .img-fluid-choice {
+        height: 4.5rem;
+    }
+    *{
+        font-size: 1.2rem;
+    }
+}
