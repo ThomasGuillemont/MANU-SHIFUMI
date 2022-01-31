@@ -1,4 +1,4 @@
 # javascript-shifumi
 
 Hello,
-Copyright © Thomas Guillemont
+Copyright © Thomas Guillemont (PtiCafé)
