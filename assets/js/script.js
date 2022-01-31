@@ -29,7 +29,6 @@ let tokenIA = () => {
 // variables
 let token = 0;
 let tokenComputer = 0;
-let btnGoGame = document.getElementById('btnGoGame');
 
 // localStorage score player
 let playerScore = 0;
