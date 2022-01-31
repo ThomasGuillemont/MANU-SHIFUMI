@@ -11,19 +11,14 @@ let player = () => {
         }
     }
 }
-// FIRSTNAME REPLACE
-function firstnameReplace() {
-    let firstnameChoice = document.getElementById('firstnameChoice').value;
-    localStorage.setItem("firstnameUser", firstnameChoice);
-    // Redirection shifumi.html
-    window.location="shifumi.html" ;
-}
+
 // SCORE PLAYER
 let tokenMe = () => {
     playerScore++;
     localStorage.setItem('playerScore', playerScore);
     tokenPlayer.textContent = playerScore;
 }
+
 // SCORE BOT
 let tokenIA = () => {
     iaScore++;
@@ -31,12 +26,10 @@ let tokenIA = () => {
     tokenIa.textContent = iaScore;
 }
 
-
 // variables
 let token = 0;
 let tokenComputer = 0;
 let btnGoGame = document.getElementById('btnGoGame');
-
 
 // localStorage score player
 let playerScore = 0;
@@ -45,6 +38,7 @@ if (localStorage.getItem('playerScore')) {
 } else {
     localStorage.setItem('playerScore', playerScore);
 }
+
 // localStorage score IA
 let iaScore = 0;
 if (localStorage.getItem('iaScore')) {
@@ -52,6 +46,7 @@ if (localStorage.getItem('iaScore')) {
 } else {
     localStorage.setItem('iaScore', iaScore);
 }
+
 // localStorage firstnameUser 
 let firstnameUser = 'Aventurier';
 if (localStorage.getItem('firstnameUser')) {
@@ -60,7 +55,6 @@ if (localStorage.getItem('firstnameUser')) {
     localStorage.setItem('firstnameUser', firstnameUser);
 }
 firstname.textContent = localStorage.getItem('firstnameUser');
-
 
 // Button clic
 playBtn.addEventListener('click', () => {
@@ -85,6 +79,7 @@ playBtn.addEventListener('click', () => {
         }
     }
 })
+
 // Button reset
 resetScore.addEventListener('click', () => {
     // supprimer localStorage firstname
@@ -96,6 +91,7 @@ resetScore.addEventListener('click', () => {
     // Redirection index.html
     window.location="index.html";
 })
+
 // Button music
 const btn    = document.querySelector('#btn');
 const audio  = document.querySelector('audio');
