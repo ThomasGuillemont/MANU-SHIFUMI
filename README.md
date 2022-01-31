@@ -1,2 +1,2 @@
-# Hello,
-Copyright © Thomas Guillemont (PtiCafé)
+# Copyright ©
+Thomas Guillemont (PtiCafé)
